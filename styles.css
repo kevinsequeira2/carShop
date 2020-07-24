@@ -6,6 +6,16 @@
     color: red;
     font-size: 100px;
 }
+#shirts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+
+}
+
 #secondTitle{
     display: flex;
     flex-direction: column;
