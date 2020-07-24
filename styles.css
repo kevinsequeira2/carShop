@@ -6,9 +6,15 @@
     color: red;
     font-size: 100px;
 }
-h2{
+#secondTitle{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
+}
+button{
+    color: royalblue;
+    width: 80px;
+    height: 40px;
 }
