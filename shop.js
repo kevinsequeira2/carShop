@@ -1,41 +1,35 @@
-let list=[];
-
 
 function add(id) {
     
     if(id=="blueShirt"){
-        list.push("blueShirt");
-        for (let i = 0; i < list.length; i++) {
-            const element = list[i];
-            alert(element);
-        
-    }
+
+        let to=document.createElement('li');
+        let node=document.createTextNode('blueShirt :$600000');
+        to.appendChild(node);
+        document.getElementById("table").appendChild(to);
+
     }
     if (id=="blackShirt") {
-        list.push("blackShirt");
-        for (let i = 0; i < list.length; i++) {
-            const element = list[i];
-            alert(element);
+        let to=document.createElement('li');
+        let node=document.createTextNode('blackShirt :$700000');
+        to.appendChild(node);
+        document.getElementById("table").appendChild(to);
+
     }
     
-    
-    }
     if (id=="purpleShirt") {
-        list.push("purpleShirt");
-        for (let i = 0; i < list.length; i++) {
-            const element = list[i];
-            alert(element);
+        let to=document.createElement('li');
+        let node=document.createTextNode('purpleShirt :$400000');
+        to.appendChild(node);
+        document.getElementById("table").appendChild(to);
     }
-    
-    
-    }
+
     if (id=="whiteShirt") {
-        list.push("whiteShirt");
-        for (let i = 0; i < list.length; i++) {
-            const element = list[i];
-            alert(element);
+        let to=document.createElement('li');
+        let node=document.createTextNode('whiteShirt :$300000');
+        to.appendChild(node);
+        document.getElementById("table").appendChild(to);
     }
-    
-    
-    }
+
+
 }
